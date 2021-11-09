@@ -1,6 +1,6 @@
 .basefirma {width: 300px; height: 220px; background: url(https://imgur.com/LXB27uE.png); border: 1px solid #4F8C9F; outline: 1px solid #B3CAD1; margin: 0 auto;}
 .textop {font-family: Wild Ones; font-size: 40px; color: #B3CAD1; text-shadow: -1px -1px 1px #4F8C9F; text-align: right; position: relative; top: 180px;}
-.base2 {width: 250px; height: 100px; background: rgba(60, 90, 100, 0.8); padding: 20px; margin: 0 auto; flex: 1; display: flex; justify-content: space-around; align-content: center; align-items: center; opacity: 0; transition: 1s;}
+.base2 {width: 260px; height: 100px; background: rgba(60, 90, 100, 0.8); padding: 20px; margin: 0 auto; flex: 1; display: flex; justify-content: space-around; align-content: center; align-items: center; opacity: 0; transition: 1s;}
 .icono {color: #4F8C9F; font-size: 50px;}
 .icono2 {color: #4F8C9F; font-size: 50px; transform: rotate(-90deg)}
 .textito {font-family: Montserrat; color: #B3CAD1; text-align: center; font-size: 12px;}
