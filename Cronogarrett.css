@@ -6,4 +6,5 @@
 .mes {font-family: Quicksand, sans-serif; font-size: 13px; color: #000000; width: 200px; background: #ab7800; text-align: center; margin: 0 auto; margin-top: 10px; margin-bottom: 10px;}
 .leyenda {font-family: Quicksand; color: #ab7800; font-size: 12px; text-align: center; background: #000000a3; padding: 20px;}
 .temaderol {font-size: 12px; color: #ab7800; display: inline-block;}
+.temaderol a, .temaderol a:link, .temaderol a:visited, .temaderol a:hover {color: #ab7800;}
 @font-face {font-family: Wild Ones; src: url('https://dl.dropbox.com/s/b2oevlcnuu56kke/Wild%20Ones%20Personal%20Use.ttf'); format('truetype');font-display: swap;}
