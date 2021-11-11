@@ -1,0 +1,9 @@
+.basecrono {width: 600px; height: 400px; background: #0a0a0a; display: flex; flex-wrap: wrap; position: relative; margin: 0 auto; --color-acento: #ab7800;}
+.ladoizq {width: 400px; height: 100%; display: inline-block; padding: 10px;}
+.ladoder {width: 200px; height: 100%; display: inline-block; border-left: 5px solid #ab7800; padding: 10px; background: #c3c3c3; display: flex; flex: 1; flex-direction: column; justify-content: center; align-content: center; align-items: center;}
+.cronotit {height: 50px; font-family: Wild Ones; color: #ab7800; font-size: 40px; text-align: center; margin-top: 10px;}
+.cronogrueso {height: 330px; overflow: auto; padding: 30px; font-family: Quicksand, sans-serif; color: #e9e9e9; font-size: 11px; text-align: justify;}
+.mes {font-family: Quicksand, sans-serif; font-size: 13px; color: #000000; width: 200px; background: #ab7800; text-align: center; margin: 0 auto; margin-top: 10px; margin-bottom: 10px;}
+.leyenda {font-family: Quicksand; color: #ab7800; font-size: 12px; text-align: center; background: #000000a3; padding: 20px;}
+.temaderol {font-size: 12px; color: #ab7800; display: inline-block;}
+@font-face {font-family: Wild Ones; src: url('https://dl.dropbox.com/s/b2oevlcnuu56kke/Wild%20Ones%20Personal%20Use.ttf'); format('truetype');font-display: swap;}
