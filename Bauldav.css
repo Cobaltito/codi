@@ -1,0 +1,22 @@
+.basebaul {max-width: 600px; min-height: 320px; background: #132630; padding: 10px; margin: 0 auto; display: flex; flex-wrap: wrap; position: relative;}
+.centrado {text-align: center;}
+.baseizq {flex: 1; padding: 10px; display: flex;  max-width: 250px; flex: 1; flex-direction: column; justify-content: space-between; align-content: center; align-items: center;}
+.baseder {flex: 1;height: 100%;padding: 10px;display: flex;justify-content: space-around;align-content: center;align-items: center;}
+.inicialtexto {font-family: Wild Ones; color: #4F8C9F; font-size: 30px; text-align: center; display: inline-block; margin-top: 10px;}
+.textopeq {font-family: Montserrat, sans-serif; color: #B3CAD1; font-size: 10px; text-align: justify;}
+.davi {font-family: Wild Ones; color: #4F8C9F; font-size: 30px; text-align: center; width: 230px;}
+.davi-tag {width: 90px; background: #4F8C9F; font-family: Montserrat, sans-serif; color: #fff; text-align: center; margin: 5px; display: inline-block; cursor: pointer;}
+.davi-habis {width: 140px;height: 280px;background: #B3CAD1;border-left: 3px solid #4F8C9F;border-bottom: 3px solid #4F8C9F; cursor: pointer;}
+.daggerimg {background: url(https://imgur.com/otxjkuj.png); margin-right: 15px;}
+.lughimg {background: url(https://imgur.com/VOpaTUM.png);}
+.lughletra {font-family: wild ones;font-size: 30px;color: #4F8C9F;writing-mode: vertical-rl;transform: scale(-1);-webkit-transform-: scale(-1);-mox-transform-: scale(-1);position: relative;top: 65px;left: 100px; text-shadow: -1px -1px 1px #132630;}
+.datos-hover, .habis-hover {position: absolute;width: 54%;top: 0;right: 0;background: #132630;padding: 30px;font-family: Montserrat, serif; text-align: justify; color: #fff;font-size: 10px; opacity: 0; height: 0px; z-index: 1; transition: opacity 1s ease, height 0s 1s ease;}
+.datuelot {font-family: Wild Ones; color: #B3CAD1; text-shadow: -1px -1px 1px #4F8C9F; font-size: 15px; display: inline-block; margin-right: 5px; text-align: left; display: inline-block;}
+.pequetit {border-bottom: 1px solid #4F8C9F; font-family: Wild Ones; color: #fff; font-size: 15px; text-shadow: -1px -1px 1px #4F8C9F; text-align: center; margin-top: 5px;}
+.cancioniz {color: #4F8C9F; font-family: Montserrat, serif; background: #B3CAD1; text-transform: uppercase; text-align: left; width: 240px; border-right: 2px solid #4F8C9F; margin-top: 5px; padding: 5px; display: inline-block;}
+.cancionder {background: #4F8C9F; font-family: Montserrat, serif; color: #fff; text-transform: uppercase; text-align: right; width: 240px; border-left: 2px solid #B3CAD1; margin-top: 5px; padding: 5px; display: inline-block;}
+.iconmusica {font-size: 10px; color: #4F8C9F; display: inline-block; }
+.iconmusica a, .temaderol a:link, .temaderol a:visited, .temaderol a:hover {color: #4F8C9F;}
+.habis-hover {left: 0px;width: 48%;}
+.davi-tag.brain:hover ~ .datos-hover.brain, .davi-tag.heart:hover ~.datos-hover.heart, .davi-tag.soul:hover ~ .datos-hover.soul, .davi-habis.daggerimg:hover ~ .habis-hover.davi-espe, .davi-habis.lughimg:hover ~ .habis-hover.davi-ascen {opacity:1; height: 100%; transition: opacity 1s ease, height 0s ease;}
+@font-face {font-family: Wild Ones; src: url('https://dl.dropbox.com/s/b2oevlcnuu56kke/Wild%20Ones%20Personal%20Use.ttf'); format('truetype');font-display: swap;}
