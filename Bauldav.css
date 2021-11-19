@@ -10,7 +10,7 @@
 .daggerimg {background: url(https://imgur.com/otxjkuj.png); margin-right: 15px;}
 .lughimg {background: url(https://imgur.com/VOpaTUM.png);}
 .lughletra {font-family: wild ones;font-size: 30px;color: #4F8C9F;writing-mode: vertical-rl;transform: scale(-1);-webkit-transform-: scale(-1);-mox-transform-: scale(-1);position: relative;top: 65px;left: 100px; text-shadow: -1px -1px 1px #021119;}
-.datos-hover, .habis-hover {position: absolute;width: 54%;top: 0;right: 0;background: #021119;padding: 30px;font-family: Montserrat, serif; text-align: justify; color: #fff;font-size: 10px; opacity: 0; height: 0px; z-index: 1; transition: opacity 1s ease, height 0s 1s ease;}
+.datos-hover, .habis-hover {position: absolute;width: 54%;top: 0;right: 0;background: #021119;padding: 30px;font-family: Montserrat, serif; text-align: justify; color: #fff;font-size: 10px; opacity: 0; height: 0px; z-index: 1; transition: opacity 1s ease, height 0s 1s ease; overflow: auto;}
 .datuelot {font-family: Wild Ones; color: #B3CAD1; text-shadow: -1px -1px 1px #4F8C9F; font-size: 15px; display: inline-block; margin-right: 5px; text-align: left; display: inline-block;}
 .pequetit {border-bottom: 1px solid #4F8C9F; font-family: Wild Ones; color: #fff; font-size: 15px; text-shadow: -1px -1px 1px #4F8C9F; text-align: center; margin-top: 5px;}
 .cancioniz {color: #4F8C9F; font-family: Montserrat, serif; background: #B3CAD1; text-transform: uppercase; text-align: left; width: 240px; border-right: 2px solid #4F8C9F; margin-top: 5px; padding: 5px; display: inline-block;}
