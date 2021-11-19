@@ -16,7 +16,7 @@
 .cancioniz {color: #4F8C9F; font-family: Montserrat, serif; background: #B3CAD1; text-transform: uppercase; text-align: left; width: 240px; border-right: 2px solid #4F8C9F; margin-top: 5px; padding: 5px; display: inline-block;}
 .cancionder {background: #4F8C9F; font-family: Montserrat, serif; color: #fff; text-transform: uppercase; text-align: right; width: 240px; border-left: 2px solid #B3CAD1; margin-top: 5px; padding: 5px; display: inline-block;}
 .iconmusica {font-size: 10px; color: #4F8C9F; display: inline-block; }
-.iconmusica a, .temaderol a:link, .temaderol a:visited, .temaderol a:hover {color: #4F8C9F;}
+.iconmusica a, .iconmusica a:link, .iconmusica a:visited, .iconmusica a:hover {color: #4F8C9F;}
 .habis-hover {left: 0px;width: 48%;}
 .davi-tag.brain:hover ~ .datos-hover.brain, .davi-tag.heart:hover ~.datos-hover.heart, .davi-tag.soul:hover ~ .datos-hover.soul, .davi-habis.daggerimg:hover ~ .habis-hover.davi-espe, .davi-habis.lughimg:hover ~ .habis-hover.davi-ascen {opacity:1; height: 100%; transition: opacity 1s ease, height 0s ease;}
 @font-face {font-family: Wild Ones; src: url('https://dl.dropbox.com/s/b2oevlcnuu56kke/Wild%20Ones%20Personal%20Use.ttf'); format('truetype');font-display: swap;}
