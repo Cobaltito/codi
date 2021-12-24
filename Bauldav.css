@@ -1,22 +1,32 @@
-.basebaul {max-width: 600px; min-height: 320px; background: #021119; padding: 10px; margin: 0 auto; display: flex; flex-wrap: wrap; position: relative;}
-.centrado {text-align: center;}
-.baseizq {flex: 1; padding: 10px; display: flex;  max-width: 250px; flex: 1; flex-direction: column; justify-content: space-between; align-content: center; align-items: center;}
+.basebaul {min-height: 320px;max-width: 600px;background: #021119;padding: 10px;margin: 0 auto;display: flex;flex-wrap: wrap;position:relative; --color-acento: #4F8C9F;}
+.baseizq {flex: 1; padding: 10px; display: flex; flex-direction: column; justify-content: space-between; align-content: center; align-items: center;}
 .baseder {flex: 1;height: 100%;padding: 10px;display: flex;justify-content: space-around;align-content: center;align-items: center;}
-.inicialtexto {font-family: Wild Ones; color: #4F8C9F; font-size: 30px; text-align: center; display: inline-block; margin-top: 10px;}
+.cajita {display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
+.inicialtexto {margin-top: 10px; text-align: center;font-family: Wild Ones; color: #4F8C9F; font-size: 30px; }
 .textopeq {font-family: Montserrat, sans-serif; color: #B3CAD1; font-size: 10px; text-align: justify;}
 .davi {font-family: Wild Ones; color: #4F8C9F; font-size: 30px; text-align: center; width: 230px;}
-.davi-tag {width: 90px; background: #4F8C9F; font-family: Montserrat, sans-serif; color: #fff; text-align: center; margin: 5px; display: inline-block; cursor: pointer;}
+.davi-tag {width: 90px; background: #4F8C9F; font-family: Montserrat, sans-serif; color: #fff; text-align: center; margin: 5px; cursor: pointer;}
+.datuelot {font-family: Wild Ones; color: #B3CAD1; text-shadow: -1px -1px 1px #4F8C9F; font-size: 15px; margin-right: 5px; text-align: left;}
+.pequetit {border-bottom: 1px solid #4F8C9F; font-family: Wild Ones; color: #fff; font-size: 15px; text-shadow: -1px -1px 1px #4F8C9F; text-align: center; margin: 0 0 10px;}
+.pequetit + br { display: none; }
+.cancioniz {color: #021119; font-weight: 900; font-family: Montserrat, serif; background: #B3CAD1; text-transform: uppercase; text-align: left; width: 240px; border-right: 2px solid #4F8C9F; margin: 5px 5px 0 0; padding: 5px; display: inline-block;}
+.cancionder {background: #4F8C9F; font-family: Montserrat, serif; color: #fff; text-transform: uppercase; text-align: right; width: 240px; border-left: 2px solid #B3CAD1; margin: 5px 0 0 5px; padding: 5px; display: inline-block;}
+.iconmusica {font-size: 14px; color: #4F8C9F; display: inline-block; vertical-align: middle; }
+.iconmusica a, .iconmusica a:link, .iconmusica a:visited, .iconmusica a:hover {color: #4F8C9F;}
 .davi-habis {width: 140px;height: 280px;background: #B3CAD1;border-left: 3px solid #4F8C9F;border-bottom: 3px solid #4F8C9F; cursor: pointer;}
 .daggerimg {background: url(https://imgur.com/otxjkuj.png); margin-right: 15px;}
 .lughimg {background: url(https://imgur.com/VOpaTUM.png);}
-.lughletra {font-family: wild ones;font-size: 30px;color: #4F8C9F;writing-mode: vertical-rl;transform: scale(-1);-webkit-transform-: scale(-1);-mox-transform-: scale(-1);position: relative;top: 65px;left: 100px; text-shadow: -1px -1px 1px #021119;}
-.datos-hover, .habis-hover {position: absolute;width: 54%;top: 0;right: 0;background: #021119;padding: 30px;font-family: Montserrat, serif; text-align: justify; color: #fff;font-size: 10px; opacity: 0; height: 0px; z-index: 1; transition: opacity 1s ease, height 0s 1s ease; overflow: auto;}
-.datuelot {font-family: Wild Ones; color: #B3CAD1; text-shadow: -1px -1px 1px #4F8C9F; font-size: 15px; display: inline-block; margin-right: 5px; text-align: left; display: inline-block;}
-.pequetit {border-bottom: 1px solid #4F8C9F; font-family: Wild Ones; color: #fff; font-size: 15px; text-shadow: -1px -1px 1px #4F8C9F; text-align: center; margin-top: 5px;}
-.cancioniz {color: #4F8C9F; font-family: Montserrat, serif; background: #B3CAD1; text-transform: uppercase; text-align: left; width: 240px; border-right: 2px solid #4F8C9F; margin-top: 5px; padding: 5px; display: inline-block;}
-.cancionder {background: #4F8C9F; font-family: Montserrat, serif; color: #fff; text-transform: uppercase; text-align: right; width: 240px; border-left: 2px solid #B3CAD1; margin-top: 5px; padding: 5px; display: inline-block;}
-.iconmusica {font-size: 10px; color: #4F8C9F; display: inline-block; }
-.iconmusica a, .iconmusica a:link, .iconmusica a:visited, .iconmusica a:hover {color: #4F8C9F;}
-.habis-hover {left: 0px;width: 48%;}
-.davi-tag.brain:hover ~ .datos-hover.brain, .davi-tag.heart:hover ~.datos-hover.heart, .davi-tag.soul:hover ~ .datos-hover.soul, .davi-habis.daggerimg:hover ~ .habis-hover.davi-espe, .davi-habis.lughimg:hover ~ .habis-hover.davi-ascen {opacity:1; height: 100%; transition: opacity 1s ease, height 0s ease;}
+.lughletra {font-family: wild ones;font-size: 30px;color: #4F8C9F;writing-mode: vertical-rl;transform: scale(-1);-webkit-transform-: scale(-1);-mox-transform-: scale(-1);position: relative;top: 65px;left: 100px; text-shadow: -1px -1px 1px #132630;}
+ 
+.datos-hover, .habis-hover {position: absolute;width: 54%;top: 0;right: 0;background: #021119;padding: 30px;font-family: Montserrat, serif; text-align: justify; color: #fff;font-size: 10px; height: 100%; z-index: 1; transition: opacity 1s ease, height 0s 1s ease; overflow: auto;}
+.habis-hover {left: 0px;width: 46%;}
+.closebutton { display: none; position: absolute; color: var(--color-acento); top: 10px; right: 10px; z-index: 10; cursor: pointer; }
+.baseder .closebutton {right: 56%;}
+.basebaul input, input ~ .tab { display: none }
+#tab1:checked ~ .tab.content1,  
+#tab2:checked ~ .tab.content2, 
+#tab3:checked ~ .tab.content3, 
+#tab4:checked ~ .tab.content4, 
+#tab5:checked ~ .tab.content5, :where(#tab1,#tab2,#tab3,#tab4,#tab5):checked ~ .closebutton { display: block; }
+ 
 @font-face {font-family: Wild Ones; src: url('https://dl.dropbox.com/s/b2oevlcnuu56kke/Wild%20Ones%20Personal%20Use.ttf'); format('truetype');font-display: swap;}
