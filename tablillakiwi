@@ -1,0 +1,10 @@
+.kwbas {max-width: 450px; width: 100%; background: #0a0a0a; padding: 20px; margin: 0 auto;} 
+.kwbas .h2avam {padding: 20px;} 
+.kwbas strong {color: var(--color-acento);}
+.kwbas i {color: var(--color-acento2);}
+.kwtit {font-family: 'Adelia'; color: var(--color-acento); font-size: 20px; text-align: center; border-bottom: 1px solid var(--color-acento2); max-width: 250px; width: 100%; margin: 0 auto; margin-top: 10px;}
+.kwtext:first-letter {font-family: 'Adelia'; color: var(--color-acento); font-size: 15px;}
+.kwdatos {font-family: 'Monologue'; text-transform: uppercase; color: var(--color-acento2); font-size: 12px; letter-spacing: 0.5px; text-align: center; padding: 5px; border-top: 1px solid var(--color-acento2); max-width: 250px; width: 100%; margin: 0 auto;}
+.kwicon {color: var(--color-acento2); text-shadow: -1px -1px 1px var(--color-acento); font-size: 11px; margin: 0 2px;}
+@font-face {font-family: 'Adelia'; src: url('https://cobaltito.github.io/codi/adelia.ttf');}
+@font-face { font-family: 'Monologue'; src: url('https://cobaltito.github.io/codi/Monologue DEMO.ttf');}
