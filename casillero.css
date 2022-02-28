@@ -1,0 +1,25 @@
+.bcas.enver {--var-colortranslucido: rgba(51, 20, 24, 0.7); --var-coloroscuro: #341418; --var-colormedio: #4E2E32; --var-colorclaro: #E7C7CB; --var-color-acento: #4E2E32; --var-fuente: Adelia; --var-fuentet: 25px;}
+.bcas.dav {--var-colortranslucido: rgba(2, 16, 24, 0.7);  --var-coloroscuro: #021119; --var-colormedio: #4f8c9f; --var-colorclaro: #b3cad1; --var-color-acento: #4f8c9f; --var-fuente: Adelia; --var-fuentet: 25px; }
+.bcas {width: 350px; height: 430px; background: var(--var-coloroscuro); margin: 0 auto; position: relative;}
+.ncas {font-family: var(--var-fuente); font-size: var(--var-fuentet); color: var(--var-colorclaro); text-shadow: -1px -1px 1px var(--var-colormedio); text-align: center;}
+.apcas {font-family: Montserrat; font-size: 12px; text-transform: uppercase; color: var(--var-colorclaro); text-align: center; margin-top: -5px; margin-bottom: 25px;}
+.imcas {width: 250px; height: 250px; overflow: hidden; border: 2px solid var(--var-colormedio); outline: 2px solid var(--var-colorclaro); margin: 0 auto; margin-top: -50px; margin-bottom: 20px;}
+.iccas {color: var(--var-colorclaro); font-size: 15px; display: inline-block; }
+.tagcas {width: 100%; padding: 50px; text-align: center;}
+.textcas {font-family: Montserrat; font-size: 10px; color: var(--var-colorclaro);}
+.textint {font-family: var(--var-fuente); font-size: var(--var-fuentet); color: var(--var-colorclaro); text-shadow: -1px -1px 1px var(--var-colormedio); text-align: center; margin: 0 auto;}
+.datacas {font-family: var(--var-fuente); font-size: 15px; color: var(--var-colorclaro);}
+.linkcas {background: var(--var-colorclaro); font-family: Montserrat; color: var(--var-coloroscuro); font-size: 14px; width: 180px; height: 20px; text-align: center; margin: 0 auto; border-radius: 10px;}
+.linkcas a, .linkcas a:link, .linkcas a:visited, .linkcas a:hover {color: var(--var-coloroscuro);}
+.cas-tag {width: 50px; height: 50px; border-radius: 50px; background: var(--var-colormedio); padding: 5px; margin: 5px; cursor: pointer;}
+.cas-hover {position: absolute; width: 250px; height: 246px; top: 114px; left: 50px; z-index: 1; transition: opacity 1s ease; background: var(--var-colortranslucido); padding: 20px;}
+.closebutton { display: none; position: absolute; color: var(--var-colorclaro); top: 115px; left: 280px; z-index: 10; cursor: pointer; }
+.bcas input { display: none; }/* hide radio buttons */
+input ~ .tab { display: none }/* hide contents */
+/* show contents only for selected tab */
+:where(.enver,.dav) .bot-cas:first-of-type:checked ~ .content1,  
+:where(.enver,.dav) .bot-cas:nth-of-type(2):checked ~ .content2, 
+:where(.enver,.dav) .bot-cas:nth-of-type(3):checked ~ .content3, 
+:where(.enver,.dav) .bot-cas:checked ~ .closebutton { display: block; }
+@font-face {font-family: Wild Ones; src: url('https://dl.dropbox.com/s/b2oevlcnuu56kke/Wild%20Ones%20Personal%20Use.ttf'); format('truetype');font-display: swap;}
+@font-face {font-family: Adelia; src: url('https://cobaltito.github.io/codi/adelia.ttf');}
