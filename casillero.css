@@ -12,7 +12,7 @@
 .linkcas {background: var(--var-colorclaro); font-family: Montserrat; color: var(--var-coloroscuro); font-size: 14px; width: 180px; height: 20px; text-align: center; margin: 0 auto; border-radius: 10px;}
 .linkcas a, .linkcas a:link, .linkcas a:visited, .linkcas a:hover {color: var(--var-coloroscuro);}
 .cas-tag {width: 50px; height: 50px; border-radius: 50px; background: var(--var-colormedio); padding: 5px; margin: 5px; cursor: pointer;}
-.cas-hover {position: absolute; width: 250px; height: 246px; top: 114px; left: 50px; z-index: 1; transition: opacity 1s ease; background: var(--var-colortranslucido); padding: 20px;}
+.cas-hover {position: absolute; width: 250px; height: 246px; /* top: 114px; left: 50px;*/ z-index: 1; transition: opacity 1s ease; background: var(--var-colortranslucido); padding: 20px;}
 .closebutton { display: none; position: absolute; color: var(--var-colorclaro); top: 115px; left: 280px; z-index: 10; cursor: pointer; }
 .bcas input { display: none; }/* hide radio buttons */
 input ~ .tab { display: none }/* hide contents */
