@@ -1,6 +1,6 @@
 .bcas.enver {--var-colortranslucido: rgba(51, 20, 24, 0.7); --var-coloroscuro: #341418; --var-colormedio: #4E2E32; --var-colorclaro: #E7C7CB; --var-color-acento: #4E2E32; --var-fuente: Adelia; --var-fuentet: 25px;}
 .bcas.dav {--var-colortranslucido: rgba(2, 16, 24, 0.7);  --var-coloroscuro: #021119; --var-colormedio: #4f8c9f; --var-colorclaro: #b3cad1; --var-color-acento: #4f8c9f; --var-fuente: Adelia; --var-fuentet: 25px; }
-.bcas {width: 350px; height: 430px; background: var(--var-coloroscuro); margin: 0 auto; position: relative; display: inline-block;}
+.bcas {width: 350px; height: 430px; background: var(--var-coloroscuro); margin: 0 auto; position: relative;}
 .ncas {font-family: var(--var-fuente); font-size: var(--var-fuentet); color: var(--var-colorclaro); text-shadow: -1px -1px 1px var(--var-colormedio); text-align: center;}
 .apcas {font-family: Montserrat; font-size: 12px; text-transform: uppercase; color: var(--var-colorclaro); text-align: center; margin-top: -5px; margin-bottom: 25px;}
 .imcas {width: 250px; height: 250px; overflow: hidden; border: 2px solid var(--var-colormedio); outline: 2px solid var(--var-colorclaro); margin: 0 auto; margin-top: -50px; margin-bottom: 20px;}
