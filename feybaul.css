@@ -1,0 +1,54 @@
+.bbfey {max-width: 400px; width: 100%; height: 500px; margin: 0 auto; display: flex; flex-direction: column; justify-content: flex-end; position: relative;}
+.feyname {color: var(--color-acento2); text-shadow: -1px -1px 1px var(--color-acento); padding: 0 30px;}
+.feyname i {font-family: var(--fuentecursiva); font-size: 30px;}
+.feyname p {font-family: var(--fuentefey); font-size: 20px; margin-left: 100px; margin-top: -25px;}
+.icfey {color: var(--color-acento4); font-size: 15px;}
+.icfey2 {color: black; font-size: 15px;}
+.feytags {display: inline-block; text-align: right;}
+.fey-bot {display: inline-flex; justify-content: center; align-items: center; width: 30px; height: 30px; border-radius: 30px; cursor: pointer; margin: 5px;}
+.fey-bot.bot1 {background: var(--color-acento2);}
+.fey-bot.bot2 {background: var(--color-acento);}
+.fey-bot.bot3 {background: var(--color-acento3); margin-right: 15px;}
+.tab {position: absolute; max-width: 400px; width: 100%; height: 500px; top: 0px; left: 0px; z-index: 1; transition: opacity 1s ease;}
+.tab.content1 {background: black; color: var(--color-acento2);}
+.tab.content2 {background: black; color: var(--color-acento);}
+.tab.content3 {background: black; color: var(--color-acento);}
+.closebutton { display: none; position: absolute; color: var(--color-acento2); top: 10px; right: 10px; z-index: 10; cursor: pointer; }
+.bbfey input { display: none; }/* hide radio buttons */
+input ~ .tab { display: none }/* hide contents */
+/* show contents only for selected tab */
+#tab1:checked ~ .tab.content1,  
+#tab2:checked ~ .tab.content2, 
+#tab3:checked ~ .tab.content3, :where(#tab1,#tab2,#tab3):checked ~ .closebutton { display: block; }
+/*primer tab*/
+.bas1 {display: flex; font-family: var(--fuentefey); font-size: 15px;}
+.lin1 {height: 500px; width: 50px; border-right: 1px solid var(--color-acento2);}
+.icf1 {font-size: 15px; color: black; width: 30px; height: 30px; border-radius: 30px; background: var(--color-acento2); display: flex; align-items: center; justify-content: center; margin-left: -15px; margin-right: 10px;}
+.liniconos1 {display: flex; flex-direction: column; height: 500px; justify-content: space-evenly;}
+.lindatos1 {display: flex; flex-direction: column; height: 500px; justify-content: space-evenly;}
+.bas1 span{color: black; background: var(--color-acento2); height: 20px;}
+.im1 {width: 150px; height: 400px; margin: auto;}
+/*fin primer tab*/
+/*segundo tab*/
+.bas2 {display: flex; font-family: var(--fuentebas); font-size: 12px; color: white; justify-content: right;}
+.lin2 {height: 500px; width: 50px; border-left: 1px solid var(--color-acento);}
+.bas2 span {background: var(--color-acento); color: black; font-size: 15px; height: 20px; font-family: var(--fuentefey);}
+.bas2 t{font-family: var(--fuentefey); font-size: 15px; color: var(--color-acento);}
+.lindatos2 {display: flex; flex-direction: column; height: 500px; justify-content: space-evenly;}
+.cajadat {height: 110px; max-width: 300px; width: 100%; overflow: auto; text-align: justify;  padding-right: 5px;}
+/*fin segundo tab*/
+/*tercer tab*/
+.bas3 {display: flex; flex-direction: column; align-items: center; font-family: var(--fuentefey); font-size: 13px;}
+.icf3 {font-size: 15px; color: black; width: 30px; height: 30px; border-radius: 30px; background: var(--color-acento3); display: flex; align-items: center; justify-content: center;}
+.imfey3 {max-width: 350px; width: 100%; height: 125px; overflow: hidden; margin: 20px;}
+.datuelos3 {width: 350px; height: 125px; background: rgba(15, 6, 6, 0.7); padding: 20px; opacity: 0; transition: 1s ease-in; display: flex; align-items: center; justify-content: space-between;}
+.bas3 t{color: white;}
+.feycol {width: 140px; overflow: auto;}
+.feycol.izq{text-align: left;}
+.datuelos3:hover {opacity: 1;}
+/*fin tercer tab*/
+@font-face {font-family: Adelia; src: url('https://cobaltito.github.io/codi/adelia.ttf');}
+* { scrollbar-color: var(--color-acento) black; scrollbar-width: thin;}
+::-webkit-scrollbar {height:9px;width:7px;}
+::-webkit-scrollbar-thumb {background:var(--color-acento);-webkit-border-radius: 0;-moz-border-radius: 0;}
+::-webkit-scrollbar-track {background-color: black; display: block;}
