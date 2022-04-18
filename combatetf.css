@@ -1,0 +1,13 @@
+.tc {display: flex; flex-wrap: wrap; justify-content: center;} 
+.tabcombate {max-width: 280px; width: 100%; height: 390px; background: var(--bckg2); padding: 20px; margin: 5px; text-align: center; font-family: 'work sans'; color: var(--txt1); font-size: 13px;} 
+.tdat {max-width: 260px; width: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-evenly;} 
+.comb {font-size: 18px; color: var(--acc1);} .tcname {font-family: 'Patheos'; color: var(--acc1); font-size: 18px; text-align: center;} 
+.tc1 {max-width: 260px; width: 100%; margin: 0 auto; font-family: 'work sans'; font-size: 13px; text-align: center; padding: 2px; color: var(--txt1); display: flex; align-items: center; justify-content: space-evenly;} 
+.tc1 span{background: var(--bckg3); color: var(--acc1); padding: 5px; font-family: 'Patheos'; margin: 2px;} 
+.tc1 b{background: var(--acc1); color: var(--bckg3); padding: 5px; font-family: 'Patheos'; margin: 2px;} 
+.tc2 {max-width: 260px; width: 100%; margin: 0 auto; font-family: 'work sans'; font-size: 13px; text-align: justify; padding: 10px 0; color: var(--txt1); height: 150px; overflow: auto;} 
+.tc2 b{color: var(--acc1);} [data-title]:hover:after {opacity: 1; transition: ease-in 0.2s; visibility: visible;} 
+.tcomb {background: var(--bckg3); max-width: 260px; width: 100%; margin: 0 auto; font-family: 'work sans'; font-size: 13px; padding: 5px; margin-top: 5px;} 
+.tcomb b{font-family: 'Patheos'; font-size: 14px; color: var(--acc1);} 
+[data-title]:hover:after {opacity: 1; transition: ease-in 0.2s; visibility: visible;}
+[data-title]:after {content: attr(data-title); font-family: 'work sans'; font-size: 13px; color: var(--acc1); visibility: hidden; position: absolute;}
