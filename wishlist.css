@@ -1,0 +1,43 @@
+.hecb {width: 750px; height: 500px; margin: 0 auto; border: 1px solid var(--rnclaro); background: var(--gclaro); display: flex; align-items: center; position: relative;}
+.heci1 {width: 250px; height: 350px; border: 2px solid var(--moscuro); background: var(--gclaro); overflow: hidden; margin-left: 50px;}
+.heci2 {width: 500px; height: 300px; border: 2px solid var(--roscuro); background: var(--gclaro); margin-left: -70px; margin-top: 150px; overflow: hidden;}
+.hecwish {font-family: Adelia; font-size: 50px; color: var(--roscuro); margin-left: -280px; margin-top: -300px;}
+.hecquote {font-family: Montserrat; font-size: 15px; color: var(--mmedio); margin-left: 280px; margin-top: -180px; position: absolute;}
+.hectl {display: flex; flex-direction: column; justify-content: space-between; margin-top: 150px; margin-right: 35px;}
+.hectab {width: 150px; height: 30px; background: var(--roscuro); font-family: Montserrat; font-size: 15px; color: #ffffff; padding: 5px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; margin: 5px;}
+.hectext {width: 750px; height: 500px; top: 0px; left: 0px; position: absolute; z-index: 1; transition: opacity 1 ease; background: var(--gclaro); display: flex;}
+
+.h1col {height: 500px; margin-left: 50px; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;}
+.h1ci {width: 180px; height: 120px; margin: 5px; border-bottom: 10px solid var(--moscuro); overflow: hidden;}
+.h1text {width: 400px; height: 300px; margin-top: 50px; overflow: auto; font-family: work sans; font-size: 14px; text-align: justify; color: black;}
+.h1song {width: 400px; height: 50px; background: var(--roscuro); font-family: Montserrat; font-size: 15px; color: #ffffff; display: flex; align-items: center; padding: 10px; border: 3px solid var(--gclaro); outline: 1px solid var(--roscuro);}
+
+.h2dat {width: 200px; height: 30px; background: var(--roscuro); font-family: Montserrat; font-size: 15px; color: #ffffff; margin: 5px; display: flex; align-items: center; justify-content: center;}
+.h2quote {width: 380px; font-family: Montserrat; color: var(--moscuro); text-align: left; margin-left: -130px;}
+.h2ic {color: var(--moscuro); font-size: 50px; position: relative; left: 400px; top: 20px;}
+.h2text {width: 400px; height: 350px; font-family: work sans; color: black; font-size: 14px; text-align: justify; overflow: auto; margin-left: -50px; margin-right: 50px;}
+
+.h3bloq {width: 650px; height: 200px; display: flex; flex-direction: column;}
+.h3text {width: 650px; height: 180px; padding: 20px; border-bottom: 5px solid var(--mmedio); font-family: work sans; text-align: justify; font-size: 14px; color: black; overflow-y: auto;}
+.h3tit {font-family: Adelia; color: var(--roscuro); font-size: 30px; margin-top: -40px; text-align: right;}
+
+.h4lin {display: flex; align-items: center; justify-content: space-evenly;}
+.h4im {width: 150px; height: 120px; border-bottom: 5px solid var(--moscuro); margin-right: 50px; overflow: hidden;}
+.h4text {width: 450px; height: 125px; padding: 10px; font-family: work sans; font-size: 14px; color: black; overflow: auto;}
+
+.closebutton { display: none; position: absolute; color: var(--moscuro); font-size: 20px; top: 10px; right: 10px; z-index: 10; cursor: pointer;}
+.hecb input { display: none; }/* hide radio buttons */
+input ~ .tab { display: none }/* hide contents */
+/* show contents only for selected tab */
+#tab1:checked ~ .tab.content1,  
+#tab2:checked ~ .tab.content2, 
+#tab3:checked ~ .tab.content3, 
+#tab4:checked ~ .tab.content4, :where(#tab1,#tab2,#tab3,#tab4):checked ~ .closebutton { display: flex; }
+
+
+@font-face {font-family: Adelia; src: url('https://cobaltito.github.io/codi/adelia.ttf');}
+
+* { scrollbar-color: var(--moscuro) var(--gclaro); scrollbar-width: thin;}
+::-webkit-scrollbar {height:9px;width:5px;}
+::-webkit-scrollbar-thumb {background:var(--moscuro);-webkit-border-radius: 0;-moz-border-radius: 0;}
+::-webkit-scrollbar-track {background-color: var(--gclaro); display: block;}
