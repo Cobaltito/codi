@@ -1,6 +1,6 @@
 .hecb {width: 750px; height: 500px; margin: 0 auto; border: 1px solid var(--rnclaro); background: var(--gclaro); display: flex; align-items: center; position: relative;}
-.heci1 {width: 250px; height: 350px; border: 2px solid var(--moscuro); background: var(--gclaro); overflow: hidden; margin-left: 50px;}
-.heci2 {width: 500px; height: 300px; border: 2px solid var(--roscuro); background: var(--gclaro); margin-left: -70px; margin-top: 150px; overflow: hidden;}
+.heci1 {width: 250px; height: 350px; border: 2px solid var(--moscuro); overflow: hidden; margin-left: 50px;}
+.heci2 {width: 500px; height: 300px; border: 2px solid var(--roscuro); margin-left: -70px; margin-top: 150px; overflow: hidden;}
 .hecwish {font-family: Adelia; font-size: 50px; color: var(--roscuro); margin-left: -280px; margin-top: -300px;}
 .hecquote {font-family: Montserrat; font-size: 15px; color: var(--mmedio); margin-left: 280px; margin-top: -180px; position: absolute;}
 .hectl {display: flex; flex-direction: column; justify-content: space-between; margin-top: 150px; margin-right: 35px;}
@@ -18,7 +18,7 @@
 .h2text {width: 400px; height: 350px; font-family: work sans; color: black; font-size: 14px; text-align: justify; overflow: auto; margin-left: -50px; margin-right: 50px;}
 
 .h3bloq {width: 650px; height: 200px; display: flex; flex-direction: column;}
-.h3text {width: 650px; height: 180px; padding: 20px; border-bottom: 5px solid var(--mmedio); font-family: work sans; text-align: justify; font-size: 14px; color: black; overflow-y: auto;}
+.h3text {width: 650px; height: 150px; padding: 20px; border-bottom: 5px solid var(--mmedio); font-family: work sans; text-align: justify; font-size: 14px; color: black; overflow-y: auto;}
 .h3tit {font-family: Adelia; color: var(--roscuro); font-size: 30px; margin-top: -40px; text-align: right;}
 
 .h4lin {display: flex; align-items: center; justify-content: space-evenly;}
