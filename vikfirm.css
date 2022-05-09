@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.vikfirma {width: 280px; height: 200px; overflow: hidden; margin: 0 auto; background: url(https://imgur.com/T3QHj6m.png); background-position: -60px; display: flex; align-items: left; transition: 1s; border: 10px solid #111; box-sizing: initial;}
+.vikfirma:hover {background-position: 0px; background-repeat: no-repeat; transition: 1s;}
+.vikhf {background: rgba(0, 0, 0, 0.3); width: 280px; height: 200px; display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.5s;}
+.vikh {width: 130px; height: 200px; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 1s; transition-delay: 0.5s;}
+.vikh em{color: #FAC2A4; font-size: 100px; opacity: 0.7;}
+.vikh2 {width: 150px; height: 150px; display: flex; justify-content: center; align-items: flex-end; opacity: 0; transition: 1s; transition-delay: 0.5s; font-family: Montserrat; font-size: 10px; color: #FAC2A4; text-align: right; padding: 0 20px;}
+.vikfirma:hover .vikhf{opacity: 1;}
+.vikfirma:hover .vikh{opacity: 1;}
+.vikfirma:hover .vikh2 {opacity: 2;}
+
+@keyframes light {
+  from {
+    color: #FAC2A4;
+  }
+
+  to {
+    color: white;
+  }
+}
+
+.vikfirma:hover .vikh em{ animation-duration: 0.8s;
+  animation-name: light;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;}
