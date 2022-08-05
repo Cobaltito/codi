@@ -1,0 +1,41 @@
+.bmor2 {margin: 0; padding: 0; box-sizing: border-box; --acento1: #69a197; --acento2: #A4BAB6; --acento3: #E7E7E7; --fuentemor: Ruthligos;}
+
+.bmor2 {width: 700px; height: 450px; background: black; margin: 0 auto; padding-top: 50px; padding-left: 50px; padding-right: 50px; overflow: hidden; display: flex; position: relative; flex-direction: column;}
+.datim {margin-top: 50px; background-color: var(--acento1); width: 600px; height: 300px; border-top-right-radius: 300px; border-top-left-radius: 300px; border-top: 15px solid black; border-left: 15px solid black; border-right: 15px solid black; outline: 1px solid var(--acento3); overflow: hidden;}
+.datim img{filter:grayscale(100%)}
+.datim img:hover {mix-blend-mode: multiply;}
+.morcita {width: 600px; height: 200px; font-family: var(--fuentemor); color: var(--acento3); text-align: center; font-size: 40px; margin-top: -100px;}
+.buts {display: flex; align-items: center; justify-content: space-around;}
+.mortab {cursor: pointer; display: inline-flex; align-items: center; justify-content: center; width: 200px; height: 30px; font-family: Montserrat; font-size: 14px; letter-spacing: 5px; text-transform: lowercase; color: var(--acento3); margin: 10px; background-color: var(--acento1);}
+.mortx {width: 700px; height: 450px; background: black; position: absolute; top: 0px; left: 0px; z-index: 1;}
+
+/*polaris*/
+.bpol {width: 700px; height: 450px; padding: 50px; display: flex;}
+.pim {width: 230px; height: 450px; outline: 1px solid var(--acento1); border: 15px solid black; border-top-left-radius: 110px; border-top-right-radius: 110px; overflow: hidden; margin-bottom: -55px;}
+.poltx {width: 350px; height: 350px; font-family: Montserrat; font-size: 13px; color: var(--acento3); margin-left: 50px;}
+.poltx span{font-family: var(--fuentemor); color: var(--acento1); font-size: 25px;}
+.polic {font-size: 30px; color: var(--acento1); margin-left: 0px; margin-top: 400px;}
+.polic2 {font-size: 20px; color: var(--acento3); margin-left: -80px; margin-top: 380px;}
+
+/*andromeda*/
+.bmeda {width: 700px; height: 450px; padding: 50px; display: flex; flex-direction: column;}
+.medatx {width: 600px; height: 350px; display: flex; align-items: center; justify-content: space-between;}
+.medac {width: 180px; height: 320px; overflow: auto; font-family: Montserrat; color: var(--acento3); font-size: 13px; text-align: justify;}
+.medatit {font-family: var(--fuentemor); color: var(--acento1); font-size: 25px; border-bottom: 1px solid var(--acento2); text-align: center;}
+.medasong {background-color: var(--acento1); width: 500px; height: 60px; border-radius: 30px; margin-left: 180px; font-family: Monsterrat; font-size: 14px; letter-spacing: 5px; color: var(--acento3); text-transform: lowercase; display: flex; align-items: center; justify-content: center;}
+
+/*antares*/
+.bares {width: 700px; height: 450px; padding: 50px; display: flex; align-items: center; justify-content: space-between;}
+.aresc {width: 180px; height: 350px; border-top-left-radius: 150px; border-top-right-radius: 150px; outline: 1px solid var(--acento2); font-family: Montserrat; font-size: 14px; text-align: justify; color: var(--acento3); padding: 10px; overflow: auto;}
+.aresic {font-size: 20px; color: var(--acento2); margin-left: 70px; margin-bottom: 30px;}
+
+.closebutton { display: none; position: relative; color: var(--acento1); font-size: 20px; top: -40px; right: -20px; z-index: 10; cursor: pointer;}
+.bmor2 input { display: none; }/* hide radio buttons */
+input ~ .tab { display: none }/* hide contents */
+/* show contents only for selected tab */
+#tab1:checked ~ .tab.content1,  
+#tab2:checked ~ .tab.content2, 
+#tab3:checked ~ .tab.content3, 
+#tab4:checked ~ .tab.content4, :where(#tab1,#tab2,#tab3,#tab4):checked ~ .closebutton { display: flex; }
+
+@font-face {font-family: Ruthligos; src: url('https://cobaltito.github.io/codi/Ruthligos.ttf');}
