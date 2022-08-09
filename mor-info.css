@@ -36,6 +36,6 @@ input ~ .tab { display: none }/* hide contents */
 #tab1:checked ~ .tab.content1,  
 #tab2:checked ~ .tab.content2, 
 #tab3:checked ~ .tab.content3, 
-#tab4:checked ~ .tab.content4, :where(#tab1,#tab2,#tab3,#tab4):checked ~ .closebutton { display: flex; }
+#tab4:checked ~ .tab.content4, :where(#tab1,#tab2,#tab3,#tab4):checked ~ .closebutton { display: flex!important; }
 
 @font-face {font-family: Ruthligos; src: url('https://cobaltito.github.io/codi/Ruthligos.ttf');}
