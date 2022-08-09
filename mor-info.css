@@ -15,7 +15,7 @@
 .poltx {width: 350px; height: 350px; font-family: Montserrat; font-size: 13px; color: var(--acento3); margin-left: 50px;}
 .poltx span{font-family: var(--fuentemor); color: var(--acento1); font-size: 25px;}
 .polic {font-size: 30px; color: var(--acento1); margin-left: 0px; margin-top: 400px;}
-.polic2 {font-size: 20px; color: var(--acento3); margin-left: -80px; margin-top: 380px;}
+.polic2 {font-size: 20px; color: var(--acento3); margin-left: -180px; margin-top: 380px;}
 
 /*andromeda*/
 .bmeda {width: 700px; height: 450px; padding: 50px; display: flex; flex-direction: column;}
