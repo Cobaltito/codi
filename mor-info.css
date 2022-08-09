@@ -18,7 +18,7 @@
 .polic2 {font-size: 20px; color: var(--acento3); margin-left: -180px; margin-top: 380px;}
 
 /*andromeda*/
-.bmeda {width: 700px; height: 450px; padding: 50px; display: flex; flex-direction: column;}
+.bmeda {width: 700px; padding: 50px; display: flex; flex-direction: column;}
 .medatx {width: 600px; height: 350px; display: flex; align-items: center; justify-content: space-between;}
 .medac {width: 180px; height: 320px; overflow: auto; font-family: Montserrat; color: var(--acento3); font-size: 13px; text-align: justify;}
 .medatit {font-family: var(--fuentemor); color: var(--acento1); font-size: 25px; border-bottom: 1px solid var(--acento2); text-align: center;}
