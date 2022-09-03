@@ -1,0 +1,139 @@
+.ramb {position: relative; width: 600px; height: 400px; margin: 0 auto; background: var(--imfondo); overflow: hidden;}
+.ramn {font-family: 'Ancient Medium'; font-size: 150px; color: transparent; -webkit-text-stroke: 3px var(--verde); transform: rotate(-90deg);
+position: relative; left: -250px; top: 5px;}
+.ramft {width: 200px; height: 70px; margin-left: 380px; margin-top: 150px;
+  display: flex; align-items: center; justify-content: space-between;}
+
+.ramtab {cursor: pointer; 
+display: inline-flex; align-items: center; justify-content: center;
+width: 40px; height: 40px; border-radius: 50px;
+font-size: 20px; color: white;
+background: var(--rojo);}
+
+.ramtab2 {cursor: pointer; 
+display: inline-flex; align-items: center; justify-content: center;
+width: 40px; height: 40px; border-radius: 50px;
+font-size: 20px; color: white; background: var(--verde2);}
+
+.ramtab3 {cursor: pointer; 
+display: inline-flex; align-items: center; justify-content: center;
+width: 40px; height: 40px; border-radius: 50px;
+font-size: 20px; color: white;
+background: var(--verdeo);}
+
+.ramcont {top: 0; left: 0; position: absolute;
+z-index: 1; display: flex;
+transition: 1s ease-in-out;
+width: 600px; height: 400px;
+background: var(--imfondo);
+font: 13px Calibri;
+align-items: center; justify-content: center;}
+
+.ramdat {width: 600px; height: 400px; position: relative; top: 0px; left: 0px;
+background-color: var(--transblack); padding: 30px;
+display: flex; flex-direction: column;}
+
+.ramcit {width: 400px; height: 70px; 
+position: relative; left: 130px;
+border-bottom: 5px solid var(--verde);
+font-family: 'Ancient Medium'; font-size: 30px; color: #ccc;
+display: flex; align-items: center; justify-content: flex-end; 
+opacity: 1; transition: 1s;}
+
+.ramcit2 {width: 400px; height: 70px; 
+position: relative; left: 600px; top: -70px;
+border-bottom: 5px solid var(--rojo);
+font-family: 'Ancient Medium'; font-size: 30px; color: var(--rojo);
+display: flex; align-items: center; justify-content: flex-start;
+opacity: 0; transition: 1s; transition-delay: 1s;}
+
+.ramdat:hover .ramcit{opacity: 0;}
+.ramdat:hover .ramcit2{opacity: 1; left: 10px;}
+
+.rampers {width: 500px; height: 200px; margin: 0 auto; margin-top: -20px;
+display: flex; align-items: center; justify-content: space-between;
+font-family: 'Ancient Medium'; font-size: 25px; text-transform: lowercase; color: #ccc;}
+
+.rampers1 {width: 100px; height: 200px;
+display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between;}
+
+.rampers2 {width: 400px; height: 200px;
+display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between;}
+
+.ramdat2 {width: 600px; height: 400px; position: relative; top: 0px; left: 0px;
+background-color: var(--transblack); padding: 50px;
+display: flex; align-items: center; justify-content: space-between;}
+
+.rami {width: 200px; height: 300px; border-right: 5px solid var(--verde); overflow: hidden; 
+display: flex; align-items: center; justify-content: center;
+background: url(https://imgur.com/YDevYu2.png); transition: 2s;}
+.ramdat2:hover .rami{background: url(https://imgur.com/OKZdecR.png);}
+
+.ramiq {width: 100px; height: 30px; 
+text-align: center; font-family: 'Fira Sans', calibri; 
+letter-spacing: 1px; font-size: 10px; color: #ccc;}
+.ramiq strong{color: var(--rojo); }
+
+.ramplay {width: 250px; height: 300px; 
+display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
+
+.ramgr {width: 250px; height: 30px; border-bottom: 5px solid var(--rojo);
+font-family: 'Ancient Medium'; font-size: 30px; color: #ccc; text-align: center;}
+
+.ramsong {width: 200px; padding: 5px;
+font-family: Calibri; letter-spacing: 1px; font-size: 10px; 
+text-align: center; color: #ccc;}
+
+.ramdat3 {width: 600px; height: 400px; position: relative; top: 0px; left: 0px;
+background-color: var(--transblack); padding: 30px;}
+
+.ramstk {font-family: 'Ancient Medium'; font-size: 60px; 
+color: white; text-align: center;
+transform: rotate(-90deg);
+background: var(--rojo);
+width: 350px; height: 80px; 
+position: relative; top: 130px; left: -110px;}
+
+.ramstk2 {font-family: 'Ancient Medium'; font-size: 60px; 
+color: white; text-align: center;
+transform: rotate(90deg);
+background: var(--rojo);
+width: 350px; height: 80px; 
+position: relative; top: -230px; left: 300px; }
+
+.ramlinks {width: 200px; height: 300px;
+position: relative; top: -50px; margin: -10px auto;
+display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+font-family: 'Ancient Medium'; font-size: 30px; text-align: center;}
+
+.ramlink {border-bottom: 5px solid var(--verde); width: 200px; height: 30px;}
+
+.ramlinks a, ramlinks:link, ramlinks:visited {text-decoration: none;  color:#ccc!important;}
+
+/*.ramf {width: 500px; height: 300px;
+background-color: var(--verde); mix-blend-mode: multiply;
+display: flex; align-items: center; justify-content: space-evenly;
+font-family: 'Ancient Medium'; font-size: 120px; text-align: center; 
+color: transparent; -webkit-text-stroke: 1px #FFFFFFCC;}
+.ramf span{width: 250px;}
+.ramdat {width: 500px; height: 300px; background-color: transparent;
+position: absolute; top: 50px;
+display: flex; align-items: center; justify-content: space-between;}
+.ramdat1 {width: 250px; height: 300px;
+display: flex; flex-direction: column; align-items: center; justify-content: space-between;}*/
+
+
+.closebutton { display: none; position: absolute; color: var(--rojo); font-size: 20px; top: 10px; right: 10px; z-index: 10; cursor: pointer;}
+.ramb input { display: none; }/* hide radio buttons */
+input ~ .tab { display: none }/* hide contents */
+/* show contents only for selected tab */
+#tab1:checked ~ .tab.content1,  
+#tab2:checked ~ .tab.content2, 
+#tab3:checked ~ .tab.content3,  :where(#tab1,#tab2,#tab3):checked ~ .closebutton { display: flex; }
+
+
+
+
+
+
+@font-face {font-family: 'Ancient Medium'; src: url('https://cobaltito.github.io/codi/Ancient Medium.ttf');}
