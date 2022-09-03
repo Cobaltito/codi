@@ -70,7 +70,7 @@ background: url(https://imgur.com/YDevYu2.png); transition: 2s;}
 .ramdat2:hover .rami{background: url(https://imgur.com/OKZdecR.png);}
 
 .ramiq {width: 100px; height: 30px; 
-text-align: center; font-family: 'Fira Sans', calibri; 
+text-align: center; font-family: calibri; 
 letter-spacing: 1px; font-size: 10px; color: #ccc;}
 .ramiq strong{color: var(--rojo); }
 
