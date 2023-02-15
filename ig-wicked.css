@@ -218,6 +218,11 @@
   border: 1px solid var(--fondoig);
 }
 
+.foto{
+  width: 130px;
+  height: 130px;
+}
+
 .foto-ig-1 { background-image: var(--foto-1);}
 .foto-ig-2 { background-image: var(--foto-2);}
 .foto-ig-3{ background-image: var(--foto-3);}
