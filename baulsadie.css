@@ -1,0 +1,140 @@
+/*base propia*/
+
+@font-face {font-family: Adelia; src: url('https://cobaltito.github.io/codi/adelia.ttf');}
+
+*{--ftransp: rgba(11, 11, 11, .5);
+--sadien: #f79d65;
+--sadiel: #b68cf5;
+--sadient: rgb(247, 157, 101, 0.5);
+--sadielt: rgb(182, 140, 245, 0.5);}
+
+/*fondo baul*/
+
+.sadie-b {
+  max-width: 900px; width: 100%;
+  height: 450px;
+  background: black;
+  border: var(--border);
+  margin: auto; position: relative;
+  display: flex; align-items: center; justify-content: space-evenly; flex-direction: column;
+}
+/*frase*/
+.sb-frase {
+  font-family: var(--fmono);
+  font-size: 10px; text-transform: uppercase;
+  letter-spacing: 1px;
+  max-width: 800px; width: 100%;
+  display: flex; justify-content: flex-end; align-items: center;
+}
+
+.sb-frase strong{
+  background: linear-gradient(to right, var(--sadiel), var(--sadien));
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 5px;
+}
+
+.sb-frase::before{
+  font-family: "FontAwesome";
+  content: '\f10d';
+  margin: 10px;
+  color: transparent;
+  background: linear-gradient(to right, var(--sadien), var(--sadiel));
+  -webkit-background-clip: text;
+}
+
+.sb-frase::after{
+  font-family: "FontAwesome";
+  content: '\f10e';
+  margin: 10px;
+  color: transparent;
+  background: linear-gradient(to right, var(--sadiel), var(--sadien));
+  -webkit-background-clip: text;
+}
+
+/*linea gif + nombre*/
+
+.sb-lin{
+  max-width: 850px; width: 100%; height: 250px;
+  display: flex; align-items: center; 
+  justify-content: flex-end;
+}
+
+.sb-gif{
+  background: url('https://images2.imgbox.com/ff/07/1BdB5mk2_o.gif');
+  width: 400px; height: 225px;
+  border: var(--border);
+  z-index: 1;
+}
+
+.sb-name{
+  width: 120px; height: 250px; 
+  display: flex; align-items: center;
+  overflow: hidden;
+}
+
+.sb-name-p{
+  font-family: var(--font);
+  font-size: 25px;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.sb-name-s{
+  font-family: 'Adelia';
+  font-size: 70px;
+  background: linear-gradient(to right, var(--sadien), var(--sadiel));
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: rotate(-90deg);
+  text-transform: lowercase;
+  margin-left: -140px;
+  padding: 30px;
+}
+
+/*imagen fondo*/
+.sb-pic{
+  background: url('https://imgur.com/XlOhNEb.png');
+  height: 400px; width: 380px;
+  position: absolute; top: 48px; left: 0;
+}
+
+/*linea cancion + links*/
+
+.sb-lin2{
+  max-width: 800px; width: 100%; height: 50px;
+  z-index: 1;
+  display: flex; align-items: center; justify-content: flex-start;
+  gap: 150px;
+}
+
+.sb-song{
+  max-width: 150px; width: 100%; height: 50px; padding: 10px;
+  border-left: 1px solid white;
+  background: linear-gradient(to right, var(--sadielt), var(--sadient), transparent);
+  font-family: var(--font);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.sb-links{
+  max-width: 500px; width: 100%; height: 50px;
+  font-family: var(--font);
+  font-size: 10px;
+  letter-spacing: 1px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+
+.sb-links a, .sb-links link, .sb-links:visited {text-decoration: none!important;
+color: white;
+background: linear-gradient(to right, var(--backgrey), transparent);
+height: 15px; display: flex; align-items: center;
+}
+
+.sb-links spam{
+  background: linear-gradient(to right, var(--sadien), var(--sadiel));
+  -webkit-background-clip: text; color: transparent;
+  font-family: 'Adelia'; font-size: 18px;
+  margin-top: 10px;
+}
