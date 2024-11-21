@@ -1,0 +1,284 @@
+.f-ig{
+--fuenteig: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+--fuentetig: 14px;
+}
+
+.f-ig{
+  width: 400px;
+  height: 640px;
+  background: var(--fondoig);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--fuenteig);
+  color: var(--letraig);
+  overflow: hidden;
+  line-height: 135%; 
+  font-size: 11px;
+}
+
+.f-head{
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-head-1{
+  width: 400px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.nombre-ig{
+  font-size: 14px;
+  text-transform: lowercase;
+  width: 300px;
+  text-align: center;
+}
+
+.f-head-1 i{
+  margin: 0 10px;
+}
+
+.f-head-2{
+  width: 350px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foto-perfil{
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  outline: 1px solid var(--letraigc);
+  border: 5px solid var(--fondoig);
+  background-size: contain;
+  background: var(--foto-perfil);
+}
+
+.datos-ig{
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 1.2em;
+}
+
+.bio-ig{
+  width:350px;
+  height: 80px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.bio-ig a{
+  color: var(--clink);
+  text-decoration: none;
+}
+
+.fotitos-ig{
+  width: 400px;
+  height: 400px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.foto-grande{
+  top: 80px;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+  width: 400px;
+  height: 560px;
+  background: var(--fondoig);
+}
+
+.fg-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fg-head{
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  line-height: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid var(--bordec);
+  display: flex;
+  align-items: center;
+}
+
+.fg-head i{
+  margin-left: 5px;
+  margin-right: 150px;
+}
+
+.fg-head span{
+  text-transform: uppercase;
+  color: var(--letraigc);
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+
+.fg-data{
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: var(--letraig);
+}
+
+.fg-data i{
+  margin-left: 250px;
+}
+
+.fg-perfil{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  background-size: contain;
+  background-image: var(--foto-perfil);
+  margin: 10px;
+}
+
+.fg-foto{
+  width: 400px;
+  height: 400px;
+}
+
+.fg-iconos{
+  width: 390px;
+  height: 20px;
+}
+
+.fg-iconos i{
+  font-size: 15px;
+  margin: 10px 10px 0 0;
+  color: var(--letraig);
+}
+
+.fg-likes{
+  width: 367px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.texto-foto{
+  width: 367px;
+  height: 35px;
+  overflow-y: auto;
+}
+
+.n-comentarios{
+  width: 367px;
+  color: var(--letraigc);
+}
+
+.comentarios{
+  width: 367px;
+  height: 35px;
+  overflow-y: auto;
+}
+
+.comentarios span{
+  margin-left: 20px;
+}
+
+.comentarios span::before{
+  content: "|";
+  color: var(--letraigc);
+  margin: 0 5px;;
+}
+
+.fecha{
+  color: var(--letraigc);
+  font-size: 11px;
+  width: 367px;
+}
+
+.foto label {
+  display: block;
+  cursor: pointer;
+  width: 130px;
+  height: 130px;
+  background-size: contain;
+  border: 1px solid var(--fondoig);
+  padding: 0;
+}
+
+.foto{
+  width: 130px;
+  height: 130px;
+}
+
+.foto-ig-1 { background-image: var(--foto-1);}
+.foto-ig-2 { background-image: var(--foto-2);}
+.foto-ig-3{ background-image: var(--foto-3);}
+.foto-ig-4{ background-image: var(--foto-4);}
+.foto-ig-5{ background-image: var(--foto-5);}
+.foto-ig-6{ background-image: var(--foto-6);}
+.foto-ig-7{ background-image: var(--foto-7);}
+.foto-ig-8{ background-image: var(--foto-80);}
+.foto-ig-9{ background-image: var(--foto-9);}
+.foto-ig-10{ background-image: var(--foto-10);}
+.foto-ig-11{ background-image: var(--foto-11);}
+.foto-ig-12{ background-image: var(--foto-12);}
+.foto-ig-13{ background-image: var(--foto-13);}
+.foto-ig-14{ background-image: var(--foto-14);}
+.foto-ig-15{ background-image: var(--foto-15);}
+.foto-ig-16{ background-image: var(--foto-16);}
+.foto-ig-17{ background-image: var(--foto-17);}
+.foto-ig-18{ background-image: var(--foto-180);}
+.foto-ig-19{ background-image: var(--foto-19);}
+.foto-ig-20{ background-image: var(--foto-20);}
+.foto-ig-21{ background-image: var(--foto-21);}
+.foto-ig-22{ background-image: var(--foto-22);}
+.foto-ig-23{ background-image: var(--foto-23);}
+.foto-ig-24{ background-image: var(--foto-24);}
+
+/*esto hay que ampliarlo si se quieren poner más, solo copiar y pegar y cambiar número siguiendo orden cronológico, OJO con los 8 porque el icono 8) lo estropea*/
+
+/*base de los botones*/
+.close-ig { position: absolute; top: 0; left: 0; z-index: 15; cursor: pointer;
+display: flex;
+flex-direction: column;
+background: var(--fondoig);}
+.f-ig input { display: none; }/* hide radio buttons */
+input ~ .tab-ig { display: none }/* hide contents */
+
+.foto-grande, .close-ig {display: none;}
+.foto input:checked ~ :is(.foto-grande), .foto:has(input:checked) ~ .close-ig {display: flex;}
+/*fin base botones*/
+
+
+/*CODE PARA COPIAR Y COLOCAR EN STYLE
+
+1- PARA ELEGIR COLOR DEL INSTAGRAM
+
+VERSION CLARA
+<style>.f-ig {--fondoig: rgb(255,255,255);--letraig: #1C1E21;--clink: rgb(0,55,107);--letraigc: rgb(142,142,142);--bordec: rgb(142,142,142, 0.4);} .f-ig strong{color: var(--letraig)!important;} .f-ig a{color: var(--clink)!important;} </style>
+
+VERSION OSCURA
+<style> .f-ig {--fondoig: #1C1E21;--letraig: rgb(255,255,255);--clink: rgb(142,142,142);--letraigc: rgb(142,142,142);--bordec: rgb(142,142,142, 0.4);} .f-ig strong{color: var(--letraig)!important;} .f-ig a{color: var(--clink)!important;} </style>
+
+2- PARA COLOCAR LOS LINKS A LAS FOTOGRAFIAS (TAMAÑO 400X400PX)
+
+<style>.f-ig{--foto-perfil: url(LINK);--foto-1: url(LINK);--foto-2: urlLINK);--foto-3: url(LINK);--foto-4: url(LINK);--foto-5: url(LINK);--foto-6: url(LINK);--foto-7: url(LINK);--foto-8: url(LINK);--foto-9: url(LINK);--foto-10: url(LINK);--foto-11: url(LINK);--foto-12: url(LINK);}</style>
+
+*/
