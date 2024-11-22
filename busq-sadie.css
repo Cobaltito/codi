@@ -13,6 +13,36 @@
   margin: 0 auto;
 }
 
+.aboutme{
+  width: 100%; 
+  min-height: 200px; 
+  padding: 0 50px; 
+  font-size: 11px; 
+  text-align: justify;
+}
+
+.aboutme strong{
+  text-transform: uppercase; 
+  color: black!important; 
+  padding: 3px; 
+  background: linear-gradient(#b68cf5, #f79d65); 
+  font-size: 11px; 
+  font-family: var(--fmono); 
+}
+
+.aboutme h{
+  font-family: var(--fdeco); 
+  color: transparent!important; 
+  background: linear-gradient(#b68cf5, #f79d65);
+  -webkit-background-clip: text; 
+  font-size: 55px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+  height: 60px;
+}
+
 .busq-trama{
   display: flex;
   align-items: center;
