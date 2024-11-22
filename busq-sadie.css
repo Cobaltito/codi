@@ -34,7 +34,7 @@
 }
 
 .dato {
-  padding: 3px;
+  padding: 0 3px;
   height: 20px;
   border-radius: 2px;
   background: linear-gradient(transparent 0%, transparent 70%, var(--acentog) 100%);
