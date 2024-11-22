@@ -73,7 +73,10 @@
   color: white!important;
   text-align: right;
   text-transform: uppercase;
-  padding: 3px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .trama-info.libre strong{
