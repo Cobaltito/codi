@@ -101,3 +101,207 @@ padding: 2px;
 visibility: hidden; 
 position: absolute;
 margin-left: 10px;}
+
+/*cronologia*/
+/*base*/
+
+.crono-sadie{
+  max-width: 900px; width: 100%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: space-evenly;
+  gap: 20px;
+  padding: 50px;
+  background: var(--ftransp);
+  margin: 0 auto;
+}
+
+/*nombre mes*/
+
+.crono-mes{
+  font-family: var(--fdeco);
+  font-size: 45px;
+  color: var(--sadielt);
+}
+
+/*caja tema*/
+
+.cr-tema{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: var(--fmono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1em;
+  border: var(--border);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*link al tema*/
+
+.cr-tema a, .cr-tema link, .cr-tema:visited{
+  text-decoration: none!important;
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--sadielt)!important;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/*abierto*/
+
+.cr-tema.abierto::before{
+  font-family: "FontAwesome";
+  content: '\f3c1';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadielt);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*cerrado*/
+
+.cr-tema.cerrado::before{
+  font-family: "FontAwesome";
+  content: '\f023';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadielt);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*abandonado*/
+
+.cr-tema.abandonado::before{
+  font-family: "FontAwesome";
+  content: '\f6e2';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadielt);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*privado*/
+
+.cr-tema.privado a::before{
+  font-family: "FontAwesome";
+  content: '\f10d';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadient);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*grupal*/
+
+.cr-tema.grupal a::before{
+  font-family: "FontAwesome";
+  content: '\f1dd';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadient);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*relato*/
+
+.cr-tema.relato a::before{
+  font-family: "FontAwesome";
+  content: '\f15c';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadient);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*caceria*/
+
+.cr-tema.caceria a::before{
+  font-family: "FontAwesome";
+  content: '\e19b';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadient);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*trama*/
+
+.cr-tema.trama a::before{
+  font-family: "FontAwesome";
+  content: '\f08d';
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadient);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/*leyenda*/
+
+.crono-leyenda{
+  width: 80%;
+  height: 60px;
+  border: var(--border);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.crono-leyenda span{
+  font-family: var(--fmono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.crono-leyenda.temas i{
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadielt);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.crono-leyenda.tipos i{
+  color: var(--backblack)!important;
+  font-size: 15px;
+  background: var(--sadient);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex; align-items: center; justify-content: center;
+}
+
