@@ -97,6 +97,7 @@ padding: 0;}
   transition: opacity 1s ease-in-out 2s;
   padding: 20px;
   font-size: 10px;
+  overflow-y: auto;
 }
 
 /*iconos*/
