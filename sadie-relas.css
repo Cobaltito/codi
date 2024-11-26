@@ -1,0 +1,161 @@
+/*base propia*/
+
+*{--ftransp: rgba(11, 11, 11, .5);
+--sadien: #f79d65;
+--sadiel: #b68cf5;
+--sadient: rgb(247, 157, 101, 0.5);
+--sadielt: rgb(182, 140, 245, 0.5);
+--acentog: #24544C;
+box-sizing: border-box;
+padding: 0;}
+
+/*base*/
+
+.sadie-relas{
+  max-width: 900px; width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  background: var(--backblack);
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  align-items: center; justify-content: space-evenly;
+  overflow: hidden;
+}
+
+/*titulo relas*/
+
+.sr-name {
+  font-family: var(--fdeco);
+  font-size: 80px;
+  color: var(--sadielt);
+  width: 100%;
+  text-align: center;
+  line-height: 0.5em;
+  margin-top: 50px;
+}
+
+.sr-name span{
+  font-family: var(--fmono);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(to right, var(--sadien), var(--sadiel));
+  -webkit-background-clip: text;
+}
+
+/*bloque persona*/
+
+.sadie-person{
+  width: 250px; height: 300px;
+  display: flex; flex-direction: column;
+  align-items: center;
+}
+
+/*nombre*/
+
+.sd-name{
+  width: 220px;
+  height: 30px;
+  position: relative;
+  top: 240px;
+  left: -15px;
+  background: var(--ftransp);
+  font-family: var(--fdeco);
+  font-size: 30px;
+  display: flex; align-items: center; justify-content: flex-start;
+  padding: 0px 0px 0px 10px;
+  transition: ease-in-out 3s;
+}
+
+/*rela principal*/
+
+.sd-relap{
+  width: 180px; height: 20px;
+  position: relative;
+  top: 245px;
+  left: 35px;
+  background: var(--ftransp);
+  font-family: var(--fmono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex; align-items: center; justify-content: flex-end;
+  padding: 0px 10px 0px 0px;
+  opacity: 1;
+  transition: opacity 1s ease 2s;
+}
+
+/*texto*/
+
+.sd-desc{
+  width: 210px; height: 200px;
+  background: var(--ftransp);
+  opacity: 0;
+  transition: opacity 1s ease-in-out 2s;
+  padding: 20px;
+  font-size: 10px;
+}
+
+/*iconos*/
+
+.sd-icons{
+  width: 210px; height: 50px;
+  display: flex; align-items: center; justify-content: space-evenly;
+  opacity: 0;
+  transition: opacity 1s ease-in-out 2s;
+}
+
+.sd-icons i{
+  font-size: 15px;
+  color: var(--backgrey)!important;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  display: flex; align-items: center; justify-content: center;
+
+}
+
+/*hovers*/
+
+.sadie-person:hover .sd-relap{opacity: 0;}
+.sadie-person:hover .sd-name{top: 10px;}
+.sadie-person:hover .sd-desc{opacity: 1;}
+.sadie-person:hover .sd-icons{opacity: 1;}
+
+/*anima*/
+
+.sadie-person.anima .sd-name {border-left: 10px solid var(--anima);} 
+.sadie-person.anima .sd-name {color: var(--anima)!important;} 
+.sadie-person.anima .sd-relap { border-right: 5px solid var(--anima);} 
+.sadie-person.anima .sd-icons i{ background: var(--anima);}
+
+/*spiritus*/
+
+.sadie-person.spiritus .sd-name {border-left: 10px solid var(--spiritus);} 
+.sadie-person.spiritus .sd-name {color: var(--spiritus)!important;} 
+.sadie-person.spiritus .sd-relap { border-right: 5px solid var(--spiritus);} 
+.sadie-person.spiritus .sd-icons i{ background: var(--spiritus);}
+
+/*corpus*/
+
+.sadie-person.corpus .sd-name {border-left: 10px solid var(--corpus);} 
+.sadie-person.corpus .sd-name {color: var(--corpus)!important;} 
+.sadie-person.corpus .sd-relap { border-right: 5px solid var(--corpus);} 
+.sadie-person.corpus .sd-icons i{ background: var(--corpus);}
+
+/*humanos*/
+
+.sadie-person.human .sd-name {border-left: 10px solid var(--acentog);} 
+.sadie-person.human .sd-name {color: var(--acentog)!important;} 
+.sadie-person.human .sd-relap { border-right: 5px solid var(--acentog);} 
+.sadie-person.human .sd-icons i{ background: var(--acentog);}
+
+/*muertos*/
+
+.sadie-person.muerto .sd-name {border-left: 10px solid var(--fallecidos);} 
+.sadie-person.muerto .sd-name {color: var(--fallecidos)!important;} 
+.sadie-person.muerto .sd-relap { border-right: 5px solid var(--fallecidos);} 
+.sadie-person.muerto .sd-icons i{ background: var(--fallecidos);}
