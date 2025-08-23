@@ -4,7 +4,7 @@
 /*base como tal*/
 .f2-min {background: url('https://i.imgur.com/ZckJ7x8.gif'); clip-path: polygon(25% 0%, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%); width: 320px; height: 160px;} 
 /*frasecita inicial*/
-frase-min {opacity: 1; transition: 0.6s ease-in-out; width: 250px; height: 30px; display: flex; align-items: center; justify-content: space-evenly; position: relative; top: 125px; font-family: 'Bungee Hairline'; font-size: 9px; font-weight: bolder;}
+.frase-min {opacity: 1; transition: 0.6s ease-in-out; width: 250px; height: 30px; display: flex; align-items: center; justify-content: space-evenly; position: relative; top: 125px; font-family: 'Bungee Hairline'; font-size: 9px; font-weight: bolder;}
 .frase-min > u{font-style: italic; text-decoration: none;} 
 /*icono*/
 .frase-min > i{font-weight: 100; color: var(--hive); font-size: 20px; margin: 10px 10px; display: inline-flex; -webkit-transform: rotate(10deg); animation: circle 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;}
