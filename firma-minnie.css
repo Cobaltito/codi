@@ -1,0 +1,27 @@
+*{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); }
+/*base borde poligonal*/ 
+.f-min {margin: 0 auto; background-color: var(--hive); display: flex; align-items: center; justify-content: space-evenly; clip-path: polygon(25% 0%, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%); width: 330px; height: 170px;} 
+/*base como tal*/
+.f2-min {background: url('https://i.imgur.com/ZckJ7x8.gif'); clip-path: polygon(25% 0%, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%); width: 320px; height: 160px;} 
+/*frasecita inicial*/
+frase-min {opacity: 1; transition: 0.6s ease-in-out; width: 250px; height: 30px; display: flex; align-items: center; justify-content: space-evenly; position: relative; top: 125px; font-family: 'Bungee Hairline'; font-size: 9px; font-weight: bolder;}
+.frase-min > u{font-style: italic; text-decoration: none;} 
+/*icono*/
+.frase-min > i{font-weight: 100; color: var(--hive); font-size: 20px; margin: 10px 10px; display: inline-flex; -webkit-transform: rotate(10deg); animation: circle 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;}
+/*hover*/
+.fh-min{position: relative; top: -30px; width: 320px; height: 160px; clip-path: polygon(25% 0%, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%); padding: 20px 50px; display: flex; align-items: center; justify-content: center; transition: 1s ease-in-out; background-color: var(--hive); background-blend-mode: multiply; background-image: url('https://i.imgur.com/ZckJ7x8.gif'); opacity: 0;} 
+.fh2-min {display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly; width: 140px;}
+.fh3-min{display: flex; flex-direction: column; align-items: flex-start; justify-content: space-evenly; width: 80px;} 
+.fh-min h{background: var(--spiral-3); height: 15px; font-family: 'Bungee Hairline'; font-weight: bolder; color: var(--spiral-txt-2);} 
+.f-min:hover .fh-min {opacity: 1;} 
+.f-min:hover .f2-min span{opacity: 0;} 
+/*barritas*/ 
+.loader4 {width: 80px; height: 15px; -webkit-mask:linear-gradient(90deg,var(--spiral-3) 70%,var(--spiral-3) 0) 0/20%; background: linear-gradient(var(--spiral-3) 0 0) 0/0% no-repeat #A3A0A0; animation: l4 2s infinite steps(5);}
+.loader5 {width: 80px; height: 15px; -webkit-mask:linear-gradient(90deg,var(--spiral-3) 70%,var(--spiral-3) 0) 0/20%; background: linear-gradient(var(--spiral-3) 0 0) 0/0% no-repeat #A3A0A0; animation: l5 2s infinite steps(6);}
+.loader7 {width: 80px; height: 15px; -webkit-mask:linear-gradient(90deg,var(--spiral-3) 70%,var(--spiral-3) 0) 0/20%; background: linear-gradient(var(--spiral-3) 0 0) 0/0% no-repeat #A3A0A0; animation: l7 2s infinite steps(8);}
+@keyframes l4 { 100% {background-size:40%}} @keyframes l5 { 100% {background-size:50%}} @keyframes l7 { 100% {background-size:70%}} 
+/*letra en barritas*/
+.fh3-min > div {position: relative;} 
+.fh3-min > div::after {font-family: 'Bungee Hairline'; color: var(--spiral-3); font-weight: bolder; content: attr(data-puntos)'p';  position: absolute; right: 5px; margin-left: 60px;} 
+/*animación icono*/
+@keyframes circle {0% {transform: scale(0.8);} 50% {transform: scale(1); } 100% { transform: scale(0.8);}}
