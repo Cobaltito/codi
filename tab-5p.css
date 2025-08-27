@@ -1,0 +1,21 @@
+*{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); --human: #5D6F96; --inhuman: #703675; --entes: #A0784F; --brigada: #DB8318; --recluidos: #B0B0B0;} 
+.tbr-min{max-width: 530px; width: 100%; min-height: 290px; margin: 0 auto; display: flex; flex-direction: column; background-color: var(--spiral-1); align-items: center; justify-content: space-evenly; padding: 30px; outline: 5px solid var(--colorcito);} 
+.tbr-tit{width: 100%; height: 90px; text-align: right; padding: 20px 0px; 10px 0px; display: flex; flex-direction: column;} 
+.tbr-tit span{color: transparent; font-family: var(--spiral-t-1); font-size: 40px; -webkit-text-stroke: 1px var(--colorcito);} 
+.tbr-tit strong{font-family: 'Bungee Hairline'; font-size: 11px; text-transform: uppercase; text-align: right; margin-top: 10px; letter-spacing: 1px; color: var(--spiral-txt-1);} 
+.tbr-tit strong::after{content: "\f10e"; font-family: "FontAwesome"; color: var(--colorcito); font-size: 9px; margin: 2px;} 
+.tbr-text{position: relative; max-width: 480px; width: 100%; outline: 1px dashed var(--colorcito); padding: 30px; background-color: var(--spiral-1)} 
+.tbr-text strong{color: var(--colorcito)!important;} .tbr-text u {text-decoration: underline dashed var(--colorcito); text-underline-offset: 5px; } 
+.tbr-tit::before{content: "\F1D5"; font-family: 'bootstrap-icons'; font-weight: 100;color: var(--colorcito); font-size: 150px; opacity: 0.5; transform: rotate(45deg); position: relative; top: -80px; left: -280px;} 
+.tbr-data {width: 100%; height: 70px; display: flex; flex-direction: column; justify-content: space-evenly; gap: 10px;} 
+.tbr-data2 {width: 100%; height: 50px; display: flex; align-items: center; justify-content: flex-end; gap: 15px;} 
+.tbr-data2 span, .tbr-data2 strong{font-family: 'Bungee Hairline'; padding: 0px 3px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--spiral-txt-1); font-weight: bolder; display: inline-flex; align-items: center;} 
+.tbr-data2 span::after{content: "\f133"; font-family: 'FontAwesome'; font-size: 10px; color: var(--colorcito); margin: 0px 10px;} 
+.tbr-data2 strong::after{content: "\f007"; font-family: 'FontAwesome'; font-size: 10px; color: var(--colorcito); margin: 0px 10px;} 
+.tbr-data3 {padding: 1px 3px; border: var(--colorcito); font-family: 'Bungee Hairline'; letter-spacing: 1px; font-size: 11px; font-weight: bolder; display: inline-flex; align-items: center; justify-content: flex-start; gap: 5px;} 
+.tbr-human {color: #5D6F96;} .tbr-human::before {content: "\E242"; font-family: 'Phosphor-Fill'; color: #5D6F96; margin: 0 3px;} 
+.tbr-hive {color: rgb(104, 125, 79);} .tbr-hive::before {content: "\F1D5"; font-family: 'bootstrap-icons'; color: rgb(104, 125, 79); margin: 0 3px;} 
+.tbr-inhuman {color: #703675;} .tbr-inhuman::before {content: "\E5E4"; font-family: 'Phosphor-Fill'; color: #703675;} .tbr-entes {color: #A0784F;} 
+.tbr-entes::before {content: "\E62A"; font-family: 'Phosphor-Fill'; color: #A0784F; margin: 0 3px;} .tbr-brigada {color: #DB8318;} 
+.tbr-brigada::before {content: "\E40E"; font-family: 'Phosphor-Fill'; color: #DB8318; margin: 0 3px;} 
+.tbr-recluidos {color: #B0B0B0;} .tbr-recluidos::before {content: "\E240"; font-family: 'Phosphor-Fill'; color: #B0B0B0; margin: 0 3px;} 
