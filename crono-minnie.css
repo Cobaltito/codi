@@ -1,0 +1,151 @@
+*{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); } 
+  
+  .m-crono{
+    background: var(--spiral-3);
+    margin: 0 auto;
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  
+  .mc-title{
+    color: var(--spiral-txt-3);
+    font: 500 28px / 1 var(--spiral-t-1);
+    text-align: right;
+  }
+  
+  .mc-subtitle{
+    color: var(--spiral-txt-2);
+    font: 600 12px / 1 var(--spiral-t-3);
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: -10px;
+  }
+  
+  .mc-mes{
+    font-family: 'Bungee Hairline';
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px; 
+    width: fit-content;
+    color: var(--hive);
+    border-bottom: 1px solid var(--hive);
+  }
+  
+  .mc-mes::after{
+    content: "\f141";
+    font-family: "FontAwesome";
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+  }
+  
+  .mc-temas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+  }
+ 
+  .mtema{
+    width: 450px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--hive);
+    font-family: 'Bungee Hairline';
+    font-weight: bolder;
+    padding: 20px 20px 20px 30px;
+  }
+  
+  .mtitulo{
+    width: 300px;
+    color: var(--hive);
+  }
+  
+  /*iconos para el estado del tema*/
+  
+  .mtitulo.abierto::before{
+    content: "\f09c";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    background: var(--spiral-3);
+    padding: 3px;
+    position: relative;
+    left: -40px;
+  }
+  
+  .mtitulo.cerrado::before{
+    content: "\f023";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    background: var(--spiral-3);
+    padding: 3px;
+    position: relative;
+    left: -40px;
+  }
+  
+  .mtitulo.abandonado::before{
+    content: "\f6e2";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    background: var(--spiral-3);
+    padding: 3px;
+    position: relative;
+    left: -40px;
+  }
+  
+  .tipotema{
+    color: var(--spiral-txt-1);
+    font-size: 10px;
+  }
+  
+  /*iconos para el tipo de tema*/
+  
+  .tipotema.privado::before{
+    content: "\f06c";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    background: var(--spiral-3);
+    padding: 3px;
+    position: relative;
+    left: -40px;
+  }
+  
+  .tipotema.grupal::before{
+    content: "\f1bb";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    background: var(--spiral-3);
+    padding: 3px;
+    position: relative;
+    left: -40px;
+  }
+  
+  .tipotema.mesarol::before{
+    content: "\f522";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    background: var(--spiral-3);
+    padding: 3px;
+    position: relative;
+    left: -40px;
+  }
+  
+  .mfecha{
+    width: 100px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .mfecha span{
+    font-size: 20px;
+    color: var(--hive);
+  }
