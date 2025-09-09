@@ -149,3 +149,30 @@
     font-size: 20px;
     color: var(--hive);
   }
+
+ .leyenda{
+  width: 80%;
+  margin: 0 auto;
+  height: 30px;
+  border: var(--hive);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    outline: 1px solid var(--hive);
+  }
+  
+  .leyenda span{
+    font-family: 'Bungee Hairline';
+    font-weight: bolder;
+    color: var(--spiral-txt-1);
+  }
+  
+  .leyenda.estado i{
+    color: var(--hive)!important;
+    font-size: 15px;
+  }
+  
+  .leyenda.tema i{
+    color: var(--spiral-txt-1)!important;
+    font-size:: 15px;
+  }
