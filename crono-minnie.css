@@ -93,7 +93,7 @@
   }
   
   .mtitulo.abandonado::before{
-    content: "\f6e2";
+    content: "\f05e";
     font-family: "FontAwesome";
     font-size: 15px;
     background: var(--spiral-3);
@@ -130,7 +130,7 @@
   }
   
   .tipotema.mesarol::before{
-    content: "\f522";
+    content: "\f1b2";
     font-family: "FontAwesome";
     font-size: 15px;
     background: var(--spiral-3);
