@@ -1,6 +1,6 @@
 .tbr-min, .tbr-min *{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); --human: #5D6F96; --inhuman: #703675; --entes: #A0784F; --brigada: #DB8318; --recluidos: #B0B0B0;} 
 .tbr-min{max-width: 530px; width: 100%; min-height: 290px; margin: 0 auto; display: flex; flex-direction: column; background-color: var(--spiral-1); align-items: center; justify-content: space-evenly; padding: 30px; outline: 5px solid var(--colorcito);} 
-.tbr-tit{width: 100%; height: 90px; text-align: right; padding: 20px 0px; 10px 0px; display: flex; flex-direction: column;} 
+.tbr-tit{width: 100%; height: 90px; text-align: right; padding: 20px 0px 10px 0px; display: flex; flex-direction: column;} 
 .tbr-tit span{color: transparent; font-family: var(--spiral-t-1); font-size: 40px; -webkit-text-stroke: 1px var(--colorcito);} 
 .tbr-tit strong{font-family: 'Bungee Hairline'; font-size: 11px; text-transform: uppercase; text-align: right; margin-top: 10px; letter-spacing: 1px; color: var(--spiral-txt-1);} 
 .tbr-tit strong::after{content: "\f10e"; font-family: "FontAwesome"; color: var(--colorcito); font-size: 9px; margin: 2px;} 
@@ -19,7 +19,7 @@
 .tbr-data2 span, .tbr-data2 strong{font-family: 'Bungee Hairline'; padding: 0px 3px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--spiral-txt-1); font-weight: bolder; display: inline-flex; align-items: center;} 
 .tbr-data2 span::after{content: "\f133"; font-family: 'FontAwesome'; font-size: 10px; color: var(--colorcito); margin: 0px 10px;} 
 .tbr-data2 strong::after{content: "\f007"; font-family: 'FontAwesome'; font-size: 10px; color: var(--colorcito); margin: 0px 10px;} 
-.tbr-data3 {padding: 1px 3px; border: var(--colorcito); font-family: 'Orbitron'; letter-spacing: 1px; font-size: 10px; display: inline-flex; align-items: center; justify-content: flex-start; gap: 5px;} 
+.tbr-data3 {padding: 1px 3px; border: 1px solid var(--colorcito); font-family: 'Orbitron'; letter-spacing: 1px; font-size: 10px; display: inline-flex; align-items: center; justify-content: flex-start; gap: 5px;} 
 /*opciones para personajes con los que roleas según su grupo*/
 .tbr-human {color: #5D6F96;} .tbr-human::before {content: "\E242"; font-family: 'Phosphor-Fill'; color: #5D6F96; margin: 0 3px;} 
 .tbr-hive {color: rgb(104, 125, 79);} .tbr-hive::before {content: "\F1D5"; font-family: 'bootstrap-icons'; color: rgb(104, 125, 79); margin: 0 3px;} 
