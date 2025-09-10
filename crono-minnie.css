@@ -1,4 +1,4 @@
-*{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); } 
+.m-crono, .m-crono *{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); } 
   
   .m-crono{
     background: var(--spiral-3);
@@ -69,6 +69,10 @@
     width: 300px;
     color: var(--hive);
   }
+
+.mtitulo link, .mtitulo a, .mtitulo:visited{
+  color: var(--hive)!important;
+}
   
   /*iconos para el estado del tema*/
   
