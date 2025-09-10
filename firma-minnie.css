@@ -1,4 +1,4 @@
-*{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); }
+.f-min, .f-min *{padding: 0; margin: 0; box-sizing: border-box; --hive: rgb(104, 125, 79); }
 /*base borde poligonal*/ 
 .f-min {margin: 0 auto; background-color: var(--hive); display: flex; align-items: center; justify-content: space-evenly; clip-path: polygon(25% 0%, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%); width: 330px; height: 170px;} 
 /*base como tal*/
